@@ -1,0 +1,275 @@
+{% load static %}
+
+{% block content %}
+<html lang="zxx">
+
+<head>
+    <title>ABBY'S | Home</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Humburger Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <!-- //Fonts -->
+</head>
+
+<body>
+    <!-- mian-content -->
+    <div class="main-content" id="home">
+        <div class="layer">
+            <!-- header -->
+            <header>
+                <div class="container-fluid px-lg-5">
+                    <!-- nav -->
+                    <nav class="py-4 d-lg-flex">
+                        <div id="logo">
+                            <h1> <a href=""><span class="fa fa-align-center" aria-hidden="true"></span> ABBY'S</a></h1>
+                        </div>
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu mt-2 ml-auto">
+                            <li class="active"><a href="">Home</a></li>
+                            <li><a href="about" class="scroll">About Us</a></li>
+                            <li><a href="menu" class="scroll">Menu</a></li>
+                            <li><a href="accounts/login/" class="scroll">Dashboard</a></li>
+                            <li><a href="#testimonials" class="scroll">Reviews</a></li>
+                            <li><a href="#try" class="scroll">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- //nav -->
+                </div>
+            </header>
+            <!-- //header -->
+            <div class="container">
+                <!-- /banner -->
+                <div class="banner-info-w3layouts text-center">
+                    <h3>Place an Order !!</h3>
+                    <div class="read-more">
+                        <a href="order" class="read-more scroll">Order Now </a> </div>
+                </div>
+                <div class="row order-info">
+                    <div class="middle mt-3 col-md-6 text-left">
+                        <ul class="social mb-4">
+                            <li><a href="https://www.facebook.com/abhijeet.kadam.7965"><span class="fa fa-facebook icon_facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram icon_instagram"></span></a></li>
+                        </ul>
+
+                    </div>
+                    <div class="middle-right mt-md-3 col-md-6 text-right">
+                        <h6><span class="fa fa-phone"></span> Order Now : 123456789</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- //banner -->
+        </div>
+    </div>
+    <!--// mian-content -->
+
+
+    <!-- Gallery -->
+    <section class="gallery py-5" id="gallery">
+        <div class="container py-md-5">
+            <div class="header text-center">
+                <h3 class="tittle mb-lg-5 mb-3">Our Gallery</h3>
+            </div>
+            <div class="row news-grids text-center gallery-wrap">
+                <div class="col-md-3 gal-img">
+                    <a href="#gal1"><img src="{% static 'images/g1.jpg' %}" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 gal-img">
+                    <a href="#gal2"><img src="{% static 'images/g2.jpg' %}" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 gal-img">
+                    <a href="#gal3"><img src="{% static 'images/g3.jpg' %}" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 gal-img">
+                    <a href="#gal4"><img src="{% static 'images/g4.jpg' %}" alt="news image" class="img-fluid"></a>
+                </div>
+
+            </div>
+
+            <!-- popup-->
+            <div id="gal1" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="{% static 'images/g1.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+
+            <!-- popup-->
+            <div id="gal2" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="{% static 'images/g2.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal3" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="{% static 'images/g3.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup3 -->
+            <!-- popup-->
+            <div id="gal4" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="{% static 'images/g4.jpg' %}" alt="Popup Image" class="img-fluid" />
+
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+
+
+        </div>
+    </section>
+    <!--// gallery -->
+
+    <!--/testimonials-->
+    <section class="testimonials" id="testimonials">
+        <div class="layer footer">
+            <div class="container py-5">
+                <div class="test-info text-center">
+                    <h3 class="my-md-2 my-3">Jenifer Burns</h3>
+
+                    <ul class="list-unstyled w3ls-icons clients mb-md-4">
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star-half-o"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p><span class="fa fa-quote-left"></span> Quick Delivery , Delicious Foods & amazing dishes at such an affordable price . It's definitely one of the best in town.  <span class="fa fa-quote-right"></span></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//testimonials-->
+    <br>
+    <!-- footer -->
+    <section class="try" id="try">
+    <footer class="footer-content">
+        <div class="layer footer">
+            <div class="container-fluid">
+                <div class="row footer-top-inner-w3ls">
+                    <div class="col-lg-4 col-md-6 footer-top mt-md-0 mt-sm-5">
+                        <h2>
+                            <a href=""><span class="fa fa-align-center" aria-hidden="true"></span> ABBY'S</a>
+                        </h2>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
+                        <div class="footer-w3pvt">
+                            <h3 class="mb-3 w3pvt_title">Opening Hours</h3>
+                            <hr>
+                            <ul class="list-info-w3pvt last-w3ls-contact mt-lg-4">
+                                <li>
+                                    <p> Monday - Friday 08.00 am - 10.00 pm</p>
+
+                                </li>
+                                <li class="my-2">
+                                    <p>Saturday 08.00 am - 10.00 pm</p>
+
+                                </li>
+                                <li class="my-2">
+                                    <p>Sunday 08.00 am - 10.00 pm</p>
+
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0 mt-5">
+                        <div class="footer-w3pvt">
+                            <h3 class="mb-3 w3pvt_title">Contact Us</h3>
+                            <hr>
+                            <div class="last-w3ls-contact">
+                                <p>
+                                    <a href="mailto:example@email.com">info@example.com</a>
+                                </p>
+                            </div>
+                            <div class="last-w3ls-contact my-2">
+                                <p>+ 456 123 7890</p>
+                            </div>
+                            <div class="last-w3ls-contact">
+                                <p>Shop No. 11, Angulimala Co-Operative Society, B-Wing, SG Barve Marg, Nehru Nagar, Kurla East,
+                                    <br>Near Shiv Sena Shaka, Mumbai, Maharashtra 400024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="w3ls-footer text-center mt-4">
+                    <ul class="list-unstyled w3ls-icons">
+                        <li>
+                            <a href="https://www.facebook.com/abhijeet.kadam.7965">
+                                <span class="fa fa-facebook-f"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-instagram"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="move-top text-right"><a href="#home" class="move-top"> <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a></div>
+            </div>
+            <!-- //footer bottom -->
+        </div>
+    </footer>
+    </section>
+    <!-- //footer -->
+
+
+</body>
+
+</html>
+
+{% endblock content %}
