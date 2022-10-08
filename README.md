@@ -1,2 +1,2 @@
 # Restaurant_Management_Web_App
-Djang0
+Please visit website https://abhijeetkadamportfolio.netlify.app/ for resume details
